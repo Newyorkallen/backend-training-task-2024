@@ -8,6 +8,12 @@
 
 // 1.1 範例
 const alexAge = 25;
+//1.2
+const alexMembershipID = "GYM2024-12345";
+//1.3
+const isRunningOnTreadmill = true;
+//1.4
+console.log(alexAge,alexMembershipID,isRunningOnTreadmill);
 
 // ### 題目二：變數命名練習
 // - 瑜伽團課 - 300 元
@@ -16,8 +22,8 @@ const alexAge = 25;
 // 情境：Alex 這個月的運動預算有 3000 元
 // 請修改以下中文變數名稱，讓他符合變數語意
 
-const 變數一 = 300;
-const 變數二 = 500;
+const yogaClasses = 300;
+const retrainingCourset  = 500;
 const 變數三 = 1500;
 const 變數四 = 3000;
 
