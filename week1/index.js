@@ -24,8 +24,8 @@ console.log(alexAge,alexMembershipID,isRunningOnTreadmill);
 
 const yogaClasses = 300;
 const retrainingCourset  = 500;
-const 變數三 = 1500;
-const 變數四 = 3000;
+const retrainingOnebyone = 1500;
+let AlexBudget= 3000;
 
 // ### 題目三：變數計算
 // 呈上題，Alex 想要規劃好自己的運動課程，需符合以下三個條件，請將花費總數計算在 AlexBudget 上，一起幫幫他吧！
