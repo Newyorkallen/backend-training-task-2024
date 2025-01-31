@@ -25,14 +25,15 @@ console.log(alexAge,alexMembershipID,isRunningOnTreadmill);
 const yogaClasses = 300;
 const retrainingCourset  = 500;
 const retrainingOnebyone = 1500;
-let AlexBudget= 3000;
+let Budget = 3000;
 
 // ### 題目三：變數計算
 // 呈上題，Alex 想要規劃好自己的運動課程，需符合以下三個條件，請將花費總數計算在 AlexBudget 上，一起幫幫他吧！
 // 條件一：一定至少要買 1 堂重訓團課和瑜伽團課
 // 條件二：瑜伽團課只能一次買 3 堂
 // 條件三：一定要花到 2400 以上，並購買 5 堂課程
-
+let Alexclass = yogaClasses*3 + retrainingCourset + retrainingOnebyone;
+let AlexBudget = Budget - Alexclass;
 console.log(`Alex 買完課程了，他一共剩下 ${AlexBudget} 元`);
 
 // ### 題目四：線稿圖截圖，看圖宣告變數
