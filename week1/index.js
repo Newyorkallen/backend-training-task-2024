@@ -50,6 +50,11 @@ const discount = 0.9
 // 4-1. Alex 在等紅綠燈，他抬頭看一下現在是紅燈，還有 28 秒綠燈（最多 3 個宣告）
 // 4-2. 目前一起等待的機車有 8 台
 // 4.3. Alex 望向天空，看到天上有 5 朵白雲和 1 顆太陽
+let Isredlight = true;
+let CanCrossTheRoad = false;
+let WaitMotorcycle = 8;
+let Cloud = 5;
+const Sun = 1;
 
 // ### 題目六：情境題：簡單變數計算
 // 情境：Alex 每天都會帶著 2000cc 的水壺
@@ -62,6 +67,9 @@ const discount = 0.9
 
 let myWater = 2000; // 水壺容量
 myWater -= 500; // 早上喝了 500cc
+myWater -= 800;
+myWater += 1000;
+myWater -= 700;
 
 console.log(`Alex 的水壺還有 ${myWater}cc 的水`);
 
@@ -74,6 +82,10 @@ console.log(`Alex 的水壺還有 ${myWater}cc 的水`);
 
 let totalBill = 0;
 const machineUsePrice = 50;
+const GroupClass = 150;
+let machineUsePriceTotal = machineUsePrice*3;
+let groupClassesTotal = GroupClass*2;
+let total = machineUsePriceTotal + groupClassesTotal ;
 
 console.log(
   `Anna 本週器械使用費共 ${machineUsePriceTotal} 元，團體課費用共 ${groupClassesTotal} 元，一共消費金額是 ${total}元`
